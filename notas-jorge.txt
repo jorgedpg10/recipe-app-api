@@ -1,0 +1,7 @@
+/* sobre depends_on de docker */
+
+service: viene a ser como la máquina virtual en la que se corre la app
+app: en nuestro caso es postgresql
+
+depends_on asegura que se ha levantado el servicio, pero eso no significa que el app
+esté corriendo
