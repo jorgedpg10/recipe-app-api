@@ -6,5 +6,8 @@ si vamos a 127.0.0.1:8000 aparece la instancia de django
 docker compose down
  sirven para reiniciar los contenedores
 
+docker-compose build
+ejecuta el Dockerfile y carga las dependencias definidas
+
 correr pruebas
 docker-compose run --rm app sh -c "python manage.py test"
